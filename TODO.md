@@ -1,5 +1,6 @@
 # Tasks
-
+- [x] abstract
+- [x] synopsis
 - [x] figure out requirements
 - [ ] prepare conceptual model
 - [ ] model objects, transactions
@@ -8,3 +9,4 @@
 - [ ] deploy BNA on fabric
 - [ ] buid API
 - [ ] create GUI
+- [ ] report
