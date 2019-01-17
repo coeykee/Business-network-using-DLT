@@ -2,11 +2,14 @@
 - [x] abstract
 - [x] synopsis
 - [x] figure out requirements
-- [ ] prepare conceptual model
+- [ ] install prerequisites
+- [ ] learn docker
 - [ ] model objects, transactions
+- [ ] learn composer
 - [ ] create Business Network Archive
 - [ ] create fabric 
 - [ ] deploy BNA on fabric
 - [ ] buid API
 - [ ] create GUI
+- [ ] imporove 
 - [ ] report
