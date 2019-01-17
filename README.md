@@ -4,7 +4,7 @@ A simple business network using distributed ledger technology with web applicati
 
 
 
-#References
+# References
 * [Hyperleger Fabric](https://hyperledger-fabric.readthedocs.io/en/release-1.3/whatis.html)
 
 * [Hyperleger Composer](https://hyperledger.github.io/composer/v0.19/introduction/introduction)
