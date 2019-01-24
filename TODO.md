@@ -2,7 +2,7 @@
 - [x] abstract
 - [x] synopsis
 - [x] figure out requirements
-- [ ] install prerequisites
+- [x] install prerequisites
 - [ ] learn docker
 - [ ] model objects, transactions
 - [ ] learn composer
