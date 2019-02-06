@@ -3,13 +3,16 @@
 - [x] synopsis
 - [x] figure out requirements
 - [x] install prerequisites
-- [ ] learn docker
-- [ ] model objects, transactions
-- [ ] learn composer
-- [ ] create Business Network Archive
-- [ ] create fabric 
+- [x] learn docker
+- [x] model the participants,transactions
+- [x] add logic.js
+- [x] learn composer
+- [x] create Business Network Archive
+- [x] run the fabric 
+- [x] install BNA on fabric
 - [ ] deploy BNA on fabric
-- [ ] buid API
-- [ ] create GUI
-- [ ] imporove 
-- [ ] report
+- [ ] build REST server
+- [ ] API
+- [ ] angular app
+- [ ] improve
+- [ ] final report
