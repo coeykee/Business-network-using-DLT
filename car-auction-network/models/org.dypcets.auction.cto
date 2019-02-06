@@ -1,0 +1,46 @@
+
+namespace org.dypcets.auction
+
+asset Vehicle identified by vin {
+	o String vin
+	--> Member owner
+}
+
+enum ListingState {
+	o FOR_SALE
+	o RESREVE_NOT_MET
+	o SOLD
+}
+
+asset VehicleListing identified by listingId {
+	o String listingId
+	o Double reservePrice
+	o String description
+	o ListingState state
+	o Offer [] offers optional
+	--> Vehicle vehicle
+}
+
+abstract participant User identified by email {
+	o String email
+	o String firstname
+	o String lastname
+}
+
+participant Member extends User {
+	o Double balance
+}
+
+participant Auctioneer extends User {
+	
+}
+
+transaction Offer {
+	o Double bidPrice
+	--> VehicleListing listing
+	--> Member member
+}
+
+transaction CloseBidding {
+	--> VehicleListing listing
+}
