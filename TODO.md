@@ -10,9 +10,8 @@
 - [x] create Business Network Archive
 - [x] run the fabric 
 - [x] install BNA on fabric
-- [ ] deploy BNA on fabric
-- [ ] build REST server
-- [ ] API
-- [ ] angular app
+- [x] deploy BNA on fabric
+- [x] build REST server
+- [x] angular app
 - [ ] improve
 - [ ] final report
